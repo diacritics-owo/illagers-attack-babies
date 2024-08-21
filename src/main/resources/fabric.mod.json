@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "illagers-attack-babies",
+  "version": "${version}",
+  "name": "Illagers Attack Babies",
+  "description": "Illagers now attack baby villagers. Because why not.",
+  "authors": ["diacritics-owo"],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/illagers-attack-babies/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["diacritics.owo.IllagersAttackBabies"]
+  },
+  "mixins": ["illagers-attack-babies.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.2",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  }
+}
